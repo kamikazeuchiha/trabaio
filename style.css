@@ -1,0 +1,82 @@
+<style type="text/css">
+p{
+    color: white;
+    align-items: center;
+}
+h1{
+    color: black;
+    align-items: center;
+}
+h2{
+    color: black;
+    align-items: center;
+}
+li{
+    color: white;
+    align-items: center;
+}
+
+</style>
+
+
+
+body, ul, li ,p{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-size: 1.2rem;
+    font-family: Comic;
+    text-decoration: blink;
+}
+
+a{
+    text-decoration: blink;
+    color: white;
+}
+
+.header {
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    text-decoration: blink;
+}
+
+.menu{
+    display: flex;
+}
+ .menu li{
+    margin-left: 10px;
+ }
+
+ .menu li a{
+    display: block;
+    padding: 10px;
+ }
+ a {
+    text-decoration: blink;
+    color: yellow;
+    align-content: center;
+ }
+
+.header{
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: blink;
+}
+
+body{
+    background-color: gray;
+    align-items: center;
+}
+
+div {
+    width: 100%;
+    text-align: center;
+    background-color: linear-gradient(to right, blue, rgb(33, 207, 207));
+}
